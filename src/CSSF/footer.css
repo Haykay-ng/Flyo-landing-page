@@ -1,0 +1,175 @@
+.containerfoot{
+    height: 120%;
+    background-color: rgb(5, 18, 43);
+    width: 100%;
+
+}
+
+.pushdown{
+    padding-top: 140px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+}
+
+.newlogo img{
+    padding-top: 40px;
+}
+
+
+ .catext{
+    width: 20%;
+    /* height: 100%; */
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    
+    
+} 
+
+ .catext {
+    display: grid;
+    grid-template-columns: 8% 1fr;
+    
+ }
+
+  .para{
+    margin-top: 0px;
+  }
+
+ 
+ 
+
+.conemail {
+    margin-bottom: 15px;
+    padding-top: 10px;
+    display: grid;
+    padding-bottom: 70px;
+    justify-content: space-between;
+    color: white;
+    font-size: 11px;
+    font-weight: 900;
+}
+
+.conemail span {
+    justify-content: space-between;
+}
+
+.q-links{
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.q-link a{
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media (max-width: 767px){
+    .containerfoot{
+        height: 100%;
+        /* border: 1px solid blueviolet; */
+        background-color: rgb(5, 18, 43);
+        width: 100%;
+    
+    }
+    
+    .footer{
+        display: grid;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        margin-left: 10px;
+    
+    }
+
+    .pushdown{
+        padding-top: 180px;
+    }
+    
+    
+     .catext{
+        width: 80%;
+        /* height: 100%; */
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        justify-content: space-evenly;
+        text-align: center;
+        padding-left: 17px;
+        
+        
+    } 
+
+    .para{
+        color: white;
+    font-size: 14px;
+    font-weight: 900;
+    width: 65%;
+
+    }
+
+    .solor img{
+        justify-content: space-between;
+    }
+
+    .solor{
+        font-size: 16px;
+        font-weight: 500;
+    
+
+    }
+    
+    .conemail {
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        display: grid;
+        padding-left: 30px;
+        justify-content: space-between;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    
+    .conemail span {
+        justify-content: space-between;
+        margin-bottom: 20px;
+        padding-top: 15px;
+        font-size: 11px;
+        font-weight: 900;
+    }
+    
+    .q-links{
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    
+    .q-link a{
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .newlogo img{
+        width: 50%;
+    }
+
+    .media{
+        justify-content: center;
+        margin-left: 40%;
+    }
+}

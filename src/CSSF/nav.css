@@ -1,0 +1,148 @@
+.menu {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+.right-side {
+    display: none;
+}
+
+.right_side_wideScreen {
+    display: flex !important;
+}
+
+.nav_wrapper_menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-top {
+    background-color: rgb(22, 31, 41);
+    height: 10%;
+    width: 97.55%;
+    padding-top: 30px;
+    padding-left: 25px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.undernav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-right: 80px;
+}
+
+.logo {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+@media(max-width: 767px) {
+    .header-top {
+        width: 96%;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu_wrapper {
+        position: relative;
+    }
+
+    .menu,
+    .close {
+        display: block;
+        position: absolute;
+    }
+
+    .logo img {
+        height: 30px;
+    }
+
+    .image-menu img {
+        height: 30px;
+    }
+
+    .right-side {
+        position: absolute;
+        left: 30%;
+        top: 60%;
+        background: rgb(10, 10, 34) transparent;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 50%;
+        padding-top: 13px;
+        padding-left: 30px;
+        margin: 30px 0 10px 10px;
+        backdrop-filter: blur(1rem);
+    }
+
+    .right-side ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .right-side h4 {
+        list-style: none;
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: white;
+    }
+
+    .side-btn {
+        display: block;
+        color: aquamarine;
+        transition-duration: 0.7s;
+    }
+
+    .side-btn:hover {
+        color: aquamarine;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: lightslategrey;
+    }
+
+    .right_side_wideScreen {
+        display: none !important;
+    }
+}
+
+@media(min-width: 768px) {
+    .menu,
+    .close {
+        display: none;
+    }
+
+    .right-side {
+        display: flex !important;
+        justify-content: flex-end;
+    }
+
+    .right-side ul {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-right: 40px;
+    }
+
+    .side-btn h4 {
+        margin: 0;
+    }
+
+    .side-btn:hover {
+        background-color: lightblue;
+        color: teal;
+        transition: 0.15s;
+        border-radius: 8px;
+        border-bottom: 3px solid rgb(10, 10, 34);
+    }
+}
